@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+body {
+  height: 95.7vh;
+  background: linear-gradient(orange, green);
+}
+button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+#movielist {
+  display: flex;
+}
+.listitems {
+  margin-right: 20px;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.listitems img {
+  height: 200px;
+  width: 150px;
+}
